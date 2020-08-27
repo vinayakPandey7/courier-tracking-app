@@ -14,7 +14,7 @@ export class AppComponent {
     {name:  'asdasd'},
     {name:  'asdasd'}
   ]
-  courierStatusData: any[];
+  courierStatusData: any;
 
   constructor(private toastr: ToastrService, private ApiHelperService:ApiHelperService) {}
 
