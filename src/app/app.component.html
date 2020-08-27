@@ -119,7 +119,7 @@
              
               </tr>
               </thead>
-              <tr *ngFor="let scan of courierStatusData.scans">
+              <tr *ngFor="let scan of courierStatusData?.scans">
                   <td> {{ scan?.scanDateTime }} </td>
                   <td> {{ scan?.cityLocation }} </td>
                   <td> {{ scan?.scannedLocation }} </td>
