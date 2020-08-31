@@ -29,3 +29,10 @@
         
     }
 }
+
+@media only screen and (max-device-width: 991px) {
+    /* STYLES HERE for DEVICES with physical max-screen width of 480px */
+    .detail-info{
+        zoom:60%
+    }
+}
